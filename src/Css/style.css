@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Josefin+Slab|Oswald|Reem+Kufi|Roboto');
+
+
+h1{
+    font-family: 'Josefin Slab', serif;
+    font-size:35px;
+    padding:0;
+    margin:0;
+
+
+}
+
+p{
+    font-size:15px;
+    text-align: justify;
+    font-family: 'Roboto', serif;
+    font-size: 1.5rem;
+    color: #555;
+    
+
+}
+
+body{
+    max-width: 100vw;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:borderbox;
+}
+
+html{
+    font-size:62.5%;
+}
+    
+    .vlak{
+        display:flex;
+      justify-content:center;
+      align-items: center;
+    }
+    .uber-container{
+    
+      height: 100vh;
+      max-width: 100vw;
+      padding-top:10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .container{
+      display: grid;
+      grid-template-columns: repeat(7, 10vw);
+      grid-template-rows: repeat(7,10vh);
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+    
+    
+    }
+    
+    .een{
+      grid-column: 1/4;
+      grid-row:1/3;
+
+      background-image: url(../images/su.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+    
+    .twee{
+       
+    grid-column:4/6;
+      grid-row:1/6;
+      background-color:#fae3d9;
+      background-image: url(../images/su.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+    
+    .drie{
+    
+      align-items:center;
+      grid-column:6/8;
+      grid-row:1/4;
+      background-image: url(../images/mal.jpg);
+      background-size: cover;
+
+
+      
+    }
+    
+    .vier{
+     
+      grid-column:1/4;
+     grid-row:3/6;
+      background-color:#ffebb7;
+      background-image: url(../images/mal.jpg);
+      background-size: cover;
+
+      
+    }
+    
+    .vijf{
+     
+      
+        background-image: url(../images/france.jpg);
+        background-size: cover;
+      grid-column:1/3;
+      grid-row:6/9;
+    }
+
+
+    .zes{
+     
+      
+        background-image: url(../images/su.jpg);
+        background-size: cover;
+      grid-column:3/6;
+      grid-row:6/9;
+    }
+
+
+    .zeven{
+     
+      
+        background-image: url(../images/france.jpg);
+        background-size: cover;
+      grid-column:6/8;
+      grid-row:4/9;
+    }
+    /* ----------page 2---------------------- */
+
+.homepage-container{
+    width: 100vw;
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+.titel-quote{
+    margin-bottom:2rem;
+}
+
+.onder-quote{
+    width:50vw;
+    margin-bottom:3rem;
+}
+
+.grid-container{
+    display: flex;
+    
+}
+
+.grid{
+    width:25vw;
+    height:60vh;
+    margin: .2rem;
+
+}
+
+.grid-links{
+    background-color: #ffebb7;
+    background: url(../images/france.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.grid-mid{
+    background-color: #fff4e1;
+    background:url(../images/su.jpg);
+    background-size: cover;
+
+}
+.grid-rechts{
+    background-color: #928a97;
+    background: url(../images/mal.jpg);
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+    /* ----------blogpost---------------------- */
+
+   .lineBreak{
+       display: block;
+   }
+
+   .blogpost-1{
+       max-width: 100vw;
+       
+   }
+    .deel-een{
+        min-height: 100vh;
+        max-width:99vw;
+        display: flex;
+        justify-content: center;
+        
+        flex-direction: column;
+        margin: 3rem;
+    }
+
+    .deel-een  p{
+        text-align: center;
+        padding:2rem;
+        
+    }
+
+    .deel-een h1{
+        text-align: center;
+        padding:2rem;
+        
+    }
+
+     .inleiding{
+        margin: 0 25%;
+     }   
+    .inleiding p{
+       
+        font-size: 2rem;
+        font-family: 'oswald';
+        line-height: normal;
+    }
+
+    .deel-twee{
+        height: 85vh;
+        width:100vw;
+        background:  url(../images/su.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+
+    .deel-twee  .blog-titel{
+        font-family: 'Reem Kufi', cursive;
+        text-transform: uppercase;
+        margin: 10rem;
+        text-align: center;
+        text-shadow: 2px 2px #333;
+        font-size: 5rem;
+
+
+    }
+
+   .deel-drie{
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    color: #555;
+
+   }
+
+   .deel-drie p{
+       width: 25vw;
+       margin: 1rem;
+       text-align: justify;
+
+   }   
+
+   .center{
+       width: 100vw;
+       display: flex;
+       justify-content: center;
+       margin-top:2rem; 
+   }
